@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React native</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans&family=Roboto:wght@500&family=Staatliches&family=Tourney:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <main class="main-users">
+        <section class="main-users__cards">
+            <div class="card">
+                <div class="card-inner spades">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>A</p>
+                            <p>&#9824</p>
+                        </div>
+                        <p class="card-back__central">&#9824</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>A</p>
+                            <p>&#9824</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner clubs">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>A</p>
+                            <p>&#9827</p>
+                        </div>
+                        <p class="card-back__central">&#9827</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>A</p>
+                            <p>&#9827</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner hearts">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>A</p>
+                            <p>&#9829</p>
+                        </div>
+                        <p class="card-back__central">&#9829</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>A</p>
+                            <p>&#9829</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner diamonds">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>A</p>
+                            <p>&#9830</p>
+                        </div>
+                        <p class="card-back__central">&#9830</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>A</p>
+                            <p>&#9830</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner spades">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>K</p>
+                            <p>&#9824</p>
+                        </div>
+                        <p class="card-back__central">&#9824</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>K</p>
+                            <p>&#9824</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner clubs">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>K</p>
+                            <p>&#9827</p>
+                        </div>
+                        <p class="card-back__central">&#9827</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>K</p>
+                            <p>&#9827</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner hearts">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>K</p>
+                            <p>&#9829</p>
+                        </div>
+                        <p class="card-back__central">&#9829</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>K</p>
+                            <p>&#9829</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner diamonds">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>K</p>
+                            <p>&#9830</p>
+                        </div>
+                        <p class="card-back__central">&#9830</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>K</p>
+                            <p>&#9830</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner spades">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>Q</p>
+                            <p>&#9824</p>
+                        </div>
+                        <p class="card-back__central">&#9824</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>Q</p>
+                            <p>&#9824</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner clubs">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>Q</p>
+                            <p>&#9827</p>
+                        </div>
+                        <p class="card-back__central">&#9827</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>Q</p>
+                            <p>&#9827</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner hearts">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>Q</p>
+                            <p>&#9829</p>
+                        </div>
+                        <p class="card-back__central">&#9829</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>Q</p>
+                            <p>&#9829</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner diamonds">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>Q</p>
+                            <p>&#9830</p>
+                        </div>
+                        <p class="card-back__central">&#9830</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>Q</p>
+                            <p>&#9830</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner spades">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>J</p>
+                            <p>&#9824</p>
+                        </div>
+                        <p class="card-back__central">&#9824</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>J</p>
+                            <p>&#9824</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner clubs">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>J</p>
+                            <p>&#9827</p>
+                        </div>
+                        <p class="card-back__central">&#9827</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>J</p>
+                            <p>&#9827</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner hearts">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>J</p>
+                            <p>&#9829</p>
+                        </div>
+                        <p class="card-back__central">&#9829</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>J</p>
+                            <p>&#9829</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner diamonds">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>J</p>
+                            <p>&#9830</p>
+                        </div>
+                        <p class="card-back__central">&#9830</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>J</p>
+                            <p>&#9830</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner spades">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>10</p>
+                            <p>&#9824</p>
+                        </div>
+                        <p class="card-back__central">&#9824</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>10</p>
+                            <p>&#9824</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner clubs">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>10</p>
+                            <p>&#9827</p>
+                        </div>
+                        <p class="card-back__central">&#9827</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>10</p>
+                            <p>&#9827</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner hearts">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>10</p>
+                            <p>&#9829</p>
+                        </div>
+                        <p class="card-back__central">&#9829</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>10</p>
+                            <p>&#9829</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner diamonds">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>10</p>
+                            <p>&#9830</p>
+                        </div>
+                        <p class="card-back__central">&#9830</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>10</p>
+                            <p>&#9830</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner spades">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>9</p>
+                            <p>&#9824</p>
+                        </div>
+                        <p class="card-back__central">&#9824</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>9</p>
+                            <p>&#9824</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner clubs">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>9</p>
+                            <p>&#9827</p>
+                        </div>
+                        <p class="card-back__central">&#9827</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>9</p>
+                            <p>&#9827</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner hearts">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>9</p>
+                            <p>&#9829</p>
+                        </div>
+                        <p class="card-back__central">&#9829</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>9</p>
+                            <p>&#9829</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner diamonds">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>9</p>
+                            <p>&#9830</p>
+                        </div>
+                        <p class="card-back__central">&#9830</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>9</p>
+                            <p>&#9830</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner spades">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>8</p>
+                            <p>&#9824</p>
+                        </div>
+                        <p class="card-back__central">&#9824</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>8</p>
+                            <p>&#9824</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner clubs">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>8</p>
+                            <p>&#9827</p>
+                        </div>
+                        <p class="card-back__central">&#9827</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>8</p>
+                            <p>&#9827</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner hearts">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>8</p>
+                            <p>&#9829</p>
+                        </div>
+                        <p class="card-back__central">&#9829</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>8</p>
+                            <p>&#9829</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner diamonds">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>8</p>
+                            <p>&#9830</p>
+                        </div>
+                        <p class="card-back__central">&#9830</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>8</p>
+                            <p>&#9830</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner spades">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>7</p>
+                            <p>&#9824</p>
+                        </div>
+                        <p class="card-back__central">&#9824</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>7</p>
+                            <p>&#9824</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner clubs">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>7</p>
+                            <p>&#9827</p>
+                        </div>
+                        <p class="card-back__central">&#9827</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>7</p>
+                            <p>&#9827</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner hearts">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>7</p>
+                            <p>&#9829</p>
+                        </div>
+                        <p class="card-back__central">&#9829</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>7</p>
+                            <p>&#9829</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner diamonds">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>7</p>
+                            <p>&#9830</p>
+                        </div>
+                        <p class="card-back__central">&#9830</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>7</p>
+                            <p>&#9830</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner spades">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>6</p>
+                            <p>&#9824</p>
+                        </div>
+                        <p class="card-back__central">&#9824</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>6</p>
+                            <p>&#9824</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner clubs">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>6</p>
+                            <p>&#9827</p>
+                        </div>
+                        <p class="card-back__central">&#9827</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>6</p>
+                            <p>&#9827</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner hearts">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>6</p>
+                            <p>&#9829</p>
+                        </div>
+                        <p class="card-back__central">&#9829</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>6</p>
+                            <p>&#9829</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner diamonds">
+                    <div class="card-front">
+                        <img class="main-users__card-front-image" src="./img/card normal.png" alt="ace of spades">
+                    </div>
+                    <div class="card-back">
+                        <div class="card__nominal">
+                            <p>6</p>
+                            <p>&#9830</p>
+                        </div>
+                        <p class="card-back__central">&#9830</p>
+                        <div class="card__nominal card__nominal-rotated">
+                            <p>6</p>
+                            <p>&#9830</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,137 @@
+
+
+body {
+    padding: 40px 1vw;
+    font-family: 'Staatliches', sans-serif;
+    overflow: overlay;
+}
+
+a,
+a:active,
+a:visited {
+    text-decoration: none;
+}
+
+
+
+/* users page */
+
+
+/* .main-users__users-wrapper {
+    border-bottom: 1px solid #BDBDBD;
+    border-top: 1px solid #BDBDBD;
+    padding: 20px 15px;
+} */
+.main-users__cards {
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: repeat(auto-fill, minmax(215px, auto));
+    justify-items: center;
+
+}
+
+
+/* .main-users__card {
+    width: 270px;
+    height: 300px;
+    perspective: 1000px;
+} */
+
+.main-users__card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.main-users__card:hover .main-users__card-inner {
+    transform: rotateY(-180deg);
+}
+
+.main-users__card-front-image {
+    height: 100%;
+}
+
+.main-users__card-front,
+.main-users__card-back {
+    height: 100%;
+    position: absolute;
+    /* height: 100%; */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.main-users__card-back {
+    transform: rotateY(-180deg);
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.card__nominal {
+    padding: 12px;
+    width: 30px;
+    text-align: center;
+}
+
+.card__nominal p {
+    font-size: 40px;
+    line-height: 34px;
+}
+.card-back__central {
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    /* top: 48%;
+    right: 25%; */
+    top: 30%;
+    right: 35%;
+    font-size: 100px;
+}
+
+.card__nominal-rotated {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    transform: rotateX(180deg);
+}
+
+
+.card {
+    width: 215px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.card-front,
+.card-back {
+    height: 100%;
+    position: absolute;
+    /* height: 100%; */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(-180deg);
+    outline: 2px solid black;
+    outline-offset: -2px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(-180deg);
+}
+
+.hearts, .diamonds {
+    color: red;
+}
